@@ -94,6 +94,37 @@ button:focus-visible {
   justify-content: space-between;
   height: 64px;
 }
+.nav__right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.langswitch {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+.langswitch__sep {
+  color: rgba(168,197,216,0.35);
+}
+.langswitch__btn {
+  background: none;
+  border: none;
+  color: var(--navy-line);
+  cursor: pointer;
+  padding: 0.3rem 0.35rem;
+  letter-spacing: 0.04em;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  transition: color 0.2s;
+}
+.langswitch__btn:hover { color: var(--paper-light); }
+.langswitch__btn.is-active {
+  color: var(--copper-light);
+  font-weight: 600;
+}
 .nav__mark {
   font-family: var(--font-mono);
   font-size: 0.85rem;
