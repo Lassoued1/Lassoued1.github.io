@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="rrFinal"><rect x="0" y="0" width="512" height="512" rx="112"></rect></clipPath>
+    <linearGradient id="gSkyFinal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fb8f0"></stop>
+      <stop offset="1" stop-color="#8fd6f7"></stop>
+    </linearGradient>
+    <linearGradient id="gGreenFinal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f8a4d"></stop>
+      <stop offset="1" stop-color="#0f5c30"></stop>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#rrFinal)">
+    <rect width="512" height="512" fill="url(#gSkyFinal)"></rect>
+    <circle cx="256" cy="256" r="215" fill="url(#gGreenFinal)"></circle>
+    <g stroke="#0f5c30" stroke-width="2" fill="none" opacity="0.55">
+      <ellipse cx="256" cy="256" rx="90" ry="215"></ellipse>
+      <ellipse cx="256" cy="256" rx="180" ry="215" opacity="0.5"></ellipse>
+      <line x1="41" y1="256" x2="471" y2="256"></line>
+    </g>
+
+    
+    <circle cx="196" cy="92" r="9" fill="#39d353"></circle>
+    <circle cx="316" cy="92" r="9" fill="#39d353"></circle>
+    <line x1="196" y1="101" x2="204" y2="128" stroke="#2b3a4f" stroke-width="5"></line>
+    <line x1="316" y1="101" x2="308" y2="128" stroke="#2b3a4f" stroke-width="5"></line>
+
+    
+    <circle cx="256" cy="180" r="76" fill="#161b22" stroke="#2b3a4f" stroke-width="4"></circle>
+    <clipPath id="headClipFinal"><circle cx="256" cy="180" r="72"></circle></clipPath>
+    <g clip-path="url(#headClipFinal)">
+      <path d="M 226 132 L 194 180 L 226 228" fill="none" stroke="#58a6ff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M 286 132 L 318 180 L 286 228" fill="none" stroke="#58a6ff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"></path>
+      <line x1="234" y1="212" x2="278" y2="146" stroke="#7ee787" stroke-width="2"></line>
+      <circle cx="234" cy="212" r="5" fill="#39d353"></circle>
+      <circle cx="256" cy="180" r="5" fill="#7ee787"></circle>
+      <circle cx="278" cy="146" r="5" fill="#39d353"></circle>
+    </g>
+
+    <rect x="234" y="252" width="44" height="24" fill="#2b3a4f"></rect>
+
+    
+    <rect x="146" y="276" width="220" height="160" rx="28" fill="#161b22" stroke="#2b3a4f" stroke-width="4"></rect>
+    <rect x="170" y="304" width="172" height="104" rx="12" fill="#0d1117" stroke="#1f6feb" stroke-width="2.5"></rect>
+    <text x="200" y="368" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="38" fill="#39d353">&lt;/</text>
+
+    
+    <polygon points="256,326 280,340 280,368 256,382 232,368 232,340" fill="#0d1117" stroke="#58a6ff" stroke-width="3"></polygon>
+    <circle cx="256" cy="354" r="8" fill="#58a6ff"></circle>
+    <g stroke="#7ee787" stroke-width="1.6">
+      <line x1="256" y1="354" x2="256" y2="336"></line>
+      <line x1="256" y1="354" x2="271" y2="345"></line>
+      <line x1="256" y1="354" x2="271" y2="363"></line>
+      <line x1="256" y1="354" x2="256" y2="372"></line>
+      <line x1="256" y1="354" x2="241" y2="363"></line>
+      <line x1="256" y1="354" x2="241" y2="345"></line>
+    </g>
+    <g fill="#7ee787">
+      <circle cx="256" cy="336" r="3.5"></circle><circle cx="271" cy="345" r="3.5"></circle><circle cx="271" cy="367" r="3.5"></circle>
+      <circle cx="256" cy="372" r="3.5"></circle><circle cx="241" cy="363" r="3.5"></circle><circle cx="241" cy="345" r="3.5"></circle>
+    </g>
+
+    <text x="312" y="368" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="38" fill="#39d353">&gt;</text>
+
+    <line x1="180" y1="436" x2="164" y2="460" stroke="#2b3a4f" stroke-width="8" stroke-linecap="round"></line>
+    <line x1="332" y1="436" x2="348" y2="460" stroke="#2b3a4f" stroke-width="8" stroke-linecap="round"></line>
+  </g>
+</svg>

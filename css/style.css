@@ -110,6 +110,9 @@ button:focus-visible {
   color: rgba(168,197,216,0.35);
 }
 .langswitch__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   background: none;
   border: none;
   color: var(--navy-line);
@@ -118,12 +121,24 @@ button:focus-visible {
   letter-spacing: 0.04em;
   font-family: var(--font-mono);
   font-size: 0.78rem;
-  transition: color 0.2s;
+  transition: color 0.2s, opacity 0.2s;
+  opacity: 0.6;
 }
-.langswitch__btn:hover { color: var(--paper-light); }
+.langswitch__btn .flag {
+  width: 20px;
+  height: auto;
+  border-radius: 2px;
+  display: block;
+  outline: 1px solid rgba(168,197,216,0.25);
+}
+.langswitch__btn:hover { color: var(--paper-light); opacity: 0.85; }
 .langswitch__btn.is-active {
   color: var(--copper-light);
   font-weight: 600;
+  opacity: 1;
+}
+.langswitch__btn.is-active .flag {
+  outline-color: var(--copper-light);
 }
 .nav__mark {
   font-family: var(--font-mono);

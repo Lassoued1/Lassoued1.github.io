@@ -102,6 +102,14 @@ const translations = {
     "proj.deutsch.role": "German Learning Web App (A1–C1)",
     "proj.deutsch.desc": "A self-built learning platform structured around the Studio 21 curriculum, covering levels A1 through C1 — built while learning German for integration in Austria.",
 
+    "proj.skillpulse.role": "Real-Time Team Assessment & Training Platform",
+    "proj.skillpulse.desc": "A live polling and interactive assessment platform for corporate training sessions, onboarding, and team skill checks — a web app with a real-time API and instant results.",
+    "proj.skillpulse.tag2": "Real-Time API",
+    "proj.skillpulse.tag3": "Web App",
+
+    "proj.a1sim.role": "German A1 Oral Exam Trainer (PWA)",
+    "proj.a1sim.desc": "A Progressive Web App helping French-speaking learners prepare for the A1 ÖIF/ÖSD oral exam in Austria — guided Hören/Sprechen practice, exam-style audio flow, and local microphone recording for self-review.",
+
     "cred.eyebrow": "04 — Credentials",
     "cred.title": "Certifications & Languages",
     "cred.certLabel": "Certification",
@@ -223,6 +231,14 @@ const translations = {
 
     "proj.deutsch.role": "Deutsch-Lern-Webanwendung (A1–C1)",
     "proj.deutsch.desc": "Eine selbst entwickelte Lernplattform nach dem Studio-21-Lehrplan, die die Niveaus A1 bis C1 abdeckt — entstanden während des eigenen Deutschlernens zur Integration in Österreich.",
+
+    "proj.skillpulse.role": "Echtzeit-Plattform für Teamschulung & Beurteilung",
+    "proj.skillpulse.desc": "Eine Live-Abstimmungs- und Bewertungsplattform für Unternehmensschulungen, Onboarding und Team-Kompetenzchecks — eine Web-App mit Echtzeit-API und sofortigen Ergebnissen.",
+    "proj.skillpulse.tag2": "Echtzeit-API",
+    "proj.skillpulse.tag3": "Web-App",
+
+    "proj.a1sim.role": "Trainer für die mündliche A1-Prüfung (PWA)",
+    "proj.a1sim.desc": "Eine Progressive Web App, die französischsprachigen Lernenden hilft, sich auf die mündliche ÖIF/ÖSD-A1-Prüfung in Österreich vorzubereiten — mit geführtem Hör- und Sprechtraining, prüfungsnahem Audioablauf und lokaler Mikrofonaufnahme zur Selbstkontrolle.",
 
     "cred.eyebrow": "04 — Qualifikationen",
     "cred.title": "Zertifikate & Sprachen",

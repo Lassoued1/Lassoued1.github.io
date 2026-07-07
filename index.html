@@ -23,9 +23,29 @@
     </ul>
     <div class="nav__right">
       <div class="langswitch" role="group" aria-label="Language switch">
-        <button type="button" class="langswitch__btn is-active" data-lang="en">EN</button>
+        <button type="button" class="langswitch__btn is-active" data-lang="en">
+          <svg class="flag" viewBox="0 0 24 16" aria-hidden="true">
+            <rect width="24" height="16" fill="#B22234"/>
+            <g fill="#FFFFFF">
+              <rect y="1.23" width="24" height="1.23"/>
+              <rect y="3.69" width="24" height="1.23"/>
+              <rect y="6.15" width="24" height="1.23"/>
+              <rect y="8.62" width="24" height="1.23"/>
+              <rect y="11.08" width="24" height="1.23"/>
+              <rect y="13.54" width="24" height="1.23"/>
+            </g>
+            <rect width="10.8" height="8.62" fill="#3C3B6E"/>
+          </svg>
+          <span>EN</span>
+        </button>
         <span class="langswitch__sep">/</span>
-        <button type="button" class="langswitch__btn" data-lang="de">DE</button>
+        <button type="button" class="langswitch__btn" data-lang="de">
+          <svg class="flag" viewBox="0 0 24 16" aria-hidden="true">
+            <rect width="24" height="16" fill="#ED2939"/>
+            <rect y="5.33" width="24" height="5.33" fill="#FFFFFF"/>
+          </svg>
+          <span>DE</span>
+        </button>
       </div>
       <a class="nav__cta" href="assets/CV_Mohamed_Lassoued.pdf" target="_blank" rel="noopener" data-i18n="nav.resume">Résumé ↓</a>
     </div>
@@ -296,7 +316,7 @@
 
       <article class="card">
         <div class="card__head">
-          <h3>DeutschLernen</h3>
+          <h3>Die Lernplattform</h3>
           <span class="card__status card__status--live" data-i18n="status.live">Live</span>
         </div>
         <p class="card__role" data-i18n="proj.deutsch.role">German Learning Web App (A1–C1)</p>
@@ -306,6 +326,45 @@
         </p>
         <div class="card__stack">
           <span>React</span><span>Vite</span><span>TypeScript</span>
+        </div>
+        <div class="card__links">
+          <span class="disabled" data-i18n="links.repoPrivate">Repository (private)</span>
+          <span class="disabled" data-i18n="links.demo">Live demo</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__head">
+          <h3>SkillPulse</h3>
+          <span class="card__status card__status--progress" data-i18n="status.progress">In Progress</span>
+        </div>
+        <p class="card__role" data-i18n="proj.skillpulse.role">Real-Time Team Assessment &amp; Training Platform</p>
+        <p class="desc" data-i18n="proj.skillpulse.desc">
+          A live polling and interactive assessment platform for corporate training sessions, onboarding,
+          and team skill checks — a web app with a real-time API and instant results.
+        </p>
+        <div class="card__stack">
+          <span>JavaScript</span><span data-i18n="proj.skillpulse.tag2">Real-Time API</span><span data-i18n="proj.skillpulse.tag3">Web App</span>
+        </div>
+        <div class="card__links">
+          <span class="disabled" data-i18n="links.repoPrivate">Repository (private)</span>
+          <span class="disabled" data-i18n="links.demo">Live demo</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__head">
+          <h3>A1Simulator</h3>
+          <span class="card__status card__status--progress" data-i18n="status.progress">In Progress</span>
+        </div>
+        <p class="card__role" data-i18n="proj.a1sim.role">German A1 Oral Exam Trainer (PWA)</p>
+        <p class="desc" data-i18n="proj.a1sim.desc">
+          A Progressive Web App helping French-speaking learners prepare for the A1 ÖIF/ÖSD oral exam
+          in Austria — guided Hören/Sprechen practice, exam-style audio flow, and local microphone
+          recording for self-review.
+        </p>
+        <div class="card__stack">
+          <span>Angular</span><span>TypeScript</span><span>PWA</span>
         </div>
         <div class="card__links">
           <span class="disabled" data-i18n="links.repoPrivate">Repository (private)</span>
