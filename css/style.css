@@ -254,7 +254,8 @@ button:focus-visible {
   margin: 0 0 2.2rem;
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 1.05rem;
+  font-weight: 400;
+  font-size: 0.9rem;
   color: var(--paper-light);
   opacity: 0.9;
 }
