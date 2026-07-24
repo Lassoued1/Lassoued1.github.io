@@ -255,9 +255,9 @@ button:focus-visible {
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--paper-light);
-  opacity: 0.9;
+  opacity: 0.6;
 }
 .hero__credo cite {
   display: block;
