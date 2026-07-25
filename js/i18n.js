@@ -102,6 +102,15 @@ const translations = {
     "proj.pharmalink.tag2": "Full-Stack",
     "proj.pharmalink.tag3": "Real-Time",
 
+    "proj.triagedesk.role": "Triage Workflow Management Project",
+    "proj.triagedesk.desc": "A project focused on organising triage workflows. Implementation details are available in the repository.",
+
+    "proj.wicmic.role": "Intelligent IoT Water-Meter Monitoring Platform",
+    "proj.wicmic.desc": "An on-premise IoT platform that retrofits mechanical water meters with ESP32-CAM image capture, computer vision/OCR, predictive monitoring, and a local LLM agent for anomaly alerts and French reports.",
+
+    "proj.jiradash.role": "Jira Analytics & Dashboarding Platform",
+    "proj.jiradash.desc": "A web platform that synchronises Jira data into MySQL and turns it into interactive dashboards, with automated analytics and chart-level role-based access control.",
+
     "proj.deutsch.role": "German Learning Web App (A1–C1)",
     "proj.deutsch.desc": "A self-built learning platform structured around the Studio 21 curriculum, covering levels A1 through C1 — built while learning German for integration in Austria.",
 
@@ -234,6 +243,15 @@ const translations = {
     "proj.pharmalink.desc": "Verbindet Patienten und Apotheken in Echtzeit: Medikamentensuche, Suche nach nahegelegenen Apotheken, Reservierung von Behandlungen und Rezept-Upload mit automatischer OCR-Erkennung. Für Apotheken: Bestandsverwaltung, Reservierungsabwicklung und Benachrichtigungen.",
     "proj.pharmalink.tag2": "Full-Stack",
     "proj.pharmalink.tag3": "Echtzeit",
+
+    "proj.triagedesk.role": "Projekt zur Verwaltung von Triage-Abläufen",
+    "proj.triagedesk.desc": "Ein Projekt zur Organisation von Triage-Abläufen. Details zur Umsetzung sind im Repository verfügbar.",
+
+    "proj.wicmic.role": "Intelligente IoT-Plattform zur Wasserzählerüberwachung",
+    "proj.wicmic.desc": "Eine On-Premise-IoT-Plattform, die mechanische Wasserzähler mit ESP32-CAM-Bilderfassung, Computer Vision/OCR, prädiktiver Überwachung und einem lokalen LLM-Agenten für Anomaliewarnungen und französische Berichte nachrüstet.",
+
+    "proj.jiradash.role": "Plattform für Jira-Analytik und Dashboarding",
+    "proj.jiradash.desc": "Eine Webplattform, die Jira-Daten mit MySQL synchronisiert und in interaktive Dashboards mit automatisierter Analytik und rollenbasierter Zugriffskontrolle auf Diagramme umwandelt.",
 
     "proj.deutsch.role": "Deutsch-Lern-Webanwendung (A1–C1)",
     "proj.deutsch.desc": "Eine selbst entwickelte Lernplattform nach dem Studio-21-Lehrplan, die die Niveaus A1 bis C1 abdeckt — entstanden während des eigenen Deutschlernens zur Integration in Österreich.",
