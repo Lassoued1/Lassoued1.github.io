@@ -10,7 +10,7 @@ const translations = {
     "nav.credentials": "Credentials",
     "nav.resume": "Résumé ↓",
 
-    "hero.kicker": "Available for freelance & permanent roles — Bodenseeraum",
+    "hero.kicker": "Open to full-time software engineering roles — hybrid or remote",
     "hero.role1": "Senior Software Engineer",
     "hero.role2": "Java · JavaEE · Full-Stack",
     "hero.role3": "AI & ML",
@@ -152,7 +152,7 @@ const translations = {
     "nav.credentials": "Qualifikationen",
     "nav.resume": "Lebenslauf ↓",
 
-    "hero.kicker": "Verfügbar für Freelance-Projekte & Festanstellung — Bodenseeraum",
+    "hero.kicker": "Offen für eine Vollzeitstelle als Softwareentwickler — hybrid oder remote",
     "hero.role1": "Senior Softwareentwickler",
     "hero.role2": "Java · JavaEE · Full-Stack",
     "hero.role3": "KI & ML",
