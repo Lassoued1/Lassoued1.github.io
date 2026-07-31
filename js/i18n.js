@@ -11,10 +11,10 @@ const translations = {
     "nav.resume": "Résumé ↓",
 
     "hero.kicker": "Open to full-time software engineering roles — hybrid or remote",
-    "hero.role1": "Senior Software Engineer",
-    "hero.role2": "Java · JavaEE · Full-Stack",
-    "hero.role3": "AI & ML",
-    "hero.desc": "25+ years building production systems — from rail operations software and enterprise Java platforms to modern full-stack web applications and applied AI (LLMs, RAG, multi-agent architectures). Based in Dornbirn, Austria.",
+    "hero.role1": "Senior Software & AI Engineer",
+    "hero.role2": "Full-Stack · LLMs · RAG",
+    "hero.role3": "Agentic Workloads",
+    "hero.desc": "Product-minded full-stack engineer with 25+ years building and shipping real systems end-to-end — frontend, backend, APIs, and databases. Recent focus: applied AI, LLMs, RAG, and agentic workloads. Based in Dornbirn, Austria.",
     "hero.credo": "I'm not chasing a title. I'm chasing the feeling of loving what I build, every single day.",
     "hero.btnProjects": "View projects",
     "hero.btnCV": "Download CV",
@@ -23,9 +23,9 @@ const translations = {
     "emblem.alt": "Diagram tracing a rail track transforming into a neural network, symbolizing a career path from rail systems engineering to applied AI",
 
     "titleblock.role": "Role",
-    "titleblock.roleVal": "Senior Software Engineer",
+    "titleblock.roleVal": "Senior Software & AI Engineer",
     "titleblock.domain": "Domain",
-    "titleblock.domainVal": "Full-Stack · AI/ML",
+    "titleblock.domainVal": "Full-Stack · LLMs · RAG",
     "titleblock.based": "Based in",
     "titleblock.basedVal": "Dornbirn, Austria",
     "titleblock.exp": "Experience",
@@ -35,9 +35,9 @@ const translations = {
 
     "about.eyebrow": "01 — Profile",
     "about.title": "About",
-    "about.p1": "I'm a senior software engineer with over 25 years of hands-on experience, ranging from Java/JavaEE backend systems to modern full-stack web applications built with React, Angular, and Node.js. In recent years I've built strong applied skills in AI and data: large language models (LLMs), RAG architectures, multi-agent systems with LangChain/LangGraph, machine learning with Python/PyTorch, and data pipelines.",
-    "about.p2": "My background spans large-scale operational systems — including rail operations management for Tunisian Railways and enterprise ERP development — as well as technical training and mentoring of junior engineers. Since 2019 I've worked as an independent consultant, supervising and contributing to AI-powered platforms for clients including Talan and Capgemini.",
-    "about.p3": "Now based in Dornbirn, Vorarlberg, and open to freelance/consulting engagements as well as a permanent role across the Bodenseeraum (Vorarlberg, Lake Constance, St. Gallen).",
+    "about.p1": "Product-minded full-stack engineer with 25+ years of experience building and shipping real systems end-to-end — frontend, backend, APIs, and databases. I turn ambiguous problems into working products with clean UX and reliable backend logic, and stay accountable beyond release through monitoring, debugging, and production improvements.",
+    "about.p2": "My recent focus is applied AI: LLMs, RAG systems, MCP, and agentic workflows integrated into real applications. I am comfortable moving fast across the stack, working with ambiguity, and owning outcomes. My background also spans large-scale rail operations systems, enterprise ERP development, technical mentoring, and consulting for clients including Talan and Capgemini.",
+    "about.p3": "Based in Dornbirn, Vorarlberg, Austria, with full labor-market access (Rot-Weiß-Rot-Karte plus). English is my primary working language; I am actively learning German for local integration.",
 
     "skills.langFrameworks": "Languages & Frameworks",
     "skills.fullstack": "Full-Stack",
@@ -59,7 +59,7 @@ const translations = {
     "exp.s1.b3": "Deepened hands-on skills in Python, AI/ML (LLMs, RAG, PyTorch), and data pipelines.",
     "exp.s1.b4": "Used Jira for sprint and task tracking and GitLab for version control and CI/CD across consulting engagements, with occasional .NET-based components on select client work.",
     "exp.s1.b5": "Relocated to Dornbirn, Vorarlberg, Austria in July 2026; actively learning German for local integration. Full labor-market access (Rot-Weiß-Rot-Karte plus).",
-    "exp.s2.title": "Software Engineering Trainer & Technical Mentor",
+    "exp.s2.title": "Software Engineering Consultant & Technical Mentor",
     "exp.s2.org": "TVTC (Technical and Vocational Corporation), Saudi Arabia",
     "exp.s2.b1": "Delivered technical consulting and application development within Saudi Arabia's national vocational training authority.",
     "exp.s2.b2": "Mentored junior developers in software engineering practice.",
@@ -86,24 +86,24 @@ const translations = {
     "links.demo": "Live demo",
 
     "proj.fabriq.role": "Natural-Language-to-SQL Industrial Analytics Agent",
-    "proj.fabriq.desc": "An agentic analytics tool that lets industrial teams query production data in plain language. Combines a typed full-stack app with a LangGraph-orchestrated reasoning layer that turns questions into safe, validated SQL.",
+    "proj.fabriq.desc": "An agentic natural-language-to-SQL analytics assistant for industrial SMEs, designed for security and correctness with guarded read-only SQL, execution-based evaluation, observability, and CI.",
 
     "proj.fabricore.role": "Portfolio ERP System",
-    "proj.fabricore.desc": "A modular ERP covering inventory, sales, procurement, production, finance, and logistics — built on a modern enterprise Java stack, with AI-assisted development reviewed commit by commit.",
+    "proj.fabricore.desc": "A transactional operations core for an industrial SME, covering auditable inventory, production, procurement, shipments, finance, controlled multi-currency reporting, and secure ERP integration.",
 
     "proj.werkpilot.role": "Industrial Decision-Support Platform",
-    "proj.werkpilot.desc": "A web-based operational dashboard for manufacturing SMEs in Vorarlberg. Consolidates machine, production, energy, scrap, downtime, and maintenance data into fixed KPIs, anomaly alerts, maintenance recommendations, and management reports.",
+    "proj.werkpilot.desc": "A decision-support and operations platform for industrial SMEs, with traceable CSV imports, backend-computed KPIs, explainable anomaly detection, maintenance workflows, and RBAC audit trails.",
     "proj.werkpilot.tag1": "Full-Stack",
     "proj.werkpilot.tag2": "Dashboards",
     "proj.werkpilot.tag3": "Manufacturing Data",
 
-    "proj.pharmalink.role": "Patient–Pharmacy Digital Platform",
-    "proj.pharmalink.desc": "Connects patients and pharmacies in real time: medicine search, nearby-pharmacy lookup, treatment reservation, and prescription upload with OCR-based automatic extraction. Pharmacy side covers stock management, reservation processing, and notifications.",
+    "proj.pharmalink.role": "Multilingual Patient–Pharmacy Platform",
+    "proj.pharmalink.desc": "A privacy- and availability-first platform for medicine availability and reservations: PostGIS stock search, end-to-end reservation workflows, asynchronous prescription OCR with human validation, granular permissions, audit logging, and real-time notifications.",
     "proj.pharmalink.tag2": "Full-Stack",
     "proj.pharmalink.tag3": "Real-Time",
 
-    "proj.triagedesk.role": "Triage Workflow Management Project",
-    "proj.triagedesk.desc": "A project focused on organising triage workflows. Implementation details are available in the repository.",
+    "proj.triagedesk.role": "AI-Assisted Customer-Support Helpdesk",
+    "proj.triagedesk.desc": "A human-in-the-loop, cost-aware helpdesk where an LLM classifies, prioritises, and drafts responses; staff approve every outgoing reply, while RAG and per-call cost, token, and latency audits support real AI ROI.",
 
     "proj.wicmic.role": "Intelligent IoT Water-Meter Monitoring Platform",
     "proj.wicmic.desc": "An on-premise IoT platform that retrofits mechanical water meters with ESP32-CAM image capture, computer vision/OCR, predictive monitoring, and a local LLM agent for anomaly alerts and French reports.",
@@ -132,12 +132,12 @@ const translations = {
 
     "lang.fr": "French", "lang.fluent": "Fluent",
     "lang.ar": "Arabic", "lang.native": "Native",
-    "lang.en": "English", "lang.strong": "Strong proficiency",
+    "lang.en": "English", "lang.strong": "Professional working proficiency",
     "lang.de": "German", "lang.beginner": "Beginner — actively learning",
 
     "contact.eyebrow": "05 — Get in touch",
     "contact.title": "Let's build something.",
-    "contact.desc": "Open to freelance/consulting engagements and permanent roles across the Bodenseeraum.",
+    "contact.desc": "Open to full-time software engineering roles — hybrid or remote.",
     "contact.btnCV": "Download CV",
     "contact.location": "Dornbirn, Vorarlberg, Austria",
 
@@ -153,10 +153,10 @@ const translations = {
     "nav.resume": "Lebenslauf ↓",
 
     "hero.kicker": "Offen für eine Vollzeitstelle als Softwareentwickler — hybrid oder remote",
-    "hero.role1": "Senior Softwareentwickler",
-    "hero.role2": "Java · JavaEE · Full-Stack",
-    "hero.role3": "KI & ML",
-    "hero.desc": "25+ Jahre Erfahrung im Aufbau produktiver Systeme — von Softwarelösungen für den Bahnbetrieb und Enterprise-Java-Plattformen bis hin zu modernen Full-Stack-Webanwendungen und angewandter KI (LLMs, RAG, Multi-Agenten-Architekturen). Wohnhaft in Dornbirn, Österreich.",
+    "hero.role1": "Senior Software- & KI-Ingenieur",
+    "hero.role2": "Full-Stack · LLMs · RAG",
+    "hero.role3": "Agentische Workloads",
+    "hero.desc": "Produktorientierter Full-Stack-Ingenieur mit über 25 Jahren Erfahrung in der End-to-End-Entwicklung realer Systeme — Frontend, Backend, APIs und Datenbanken. Aktueller Schwerpunkt: angewandte KI, LLMs, RAG und agentische Workloads. Wohnhaft in Dornbirn, Österreich.",
     "hero.credo": "Ich strebe nicht nach einem Titel. Ich strebe nach dem Gefühl, jeden einzelnen Tag zu lieben, was ich erschaffe.",
     "hero.btnProjects": "Projekte ansehen",
     "hero.btnCV": "Lebenslauf herunterladen",
@@ -165,9 +165,9 @@ const translations = {
     "emblem.alt": "Diagramm, das eine Bahnstrecke zeigt, die sich in ein neuronales Netz verwandelt — sinnbildlich für den Werdegang von der Bahntechnik zur angewandten KI",
 
     "titleblock.role": "Rolle",
-    "titleblock.roleVal": "Senior Softwareentwickler",
+    "titleblock.roleVal": "Senior Software- & KI-Ingenieur",
     "titleblock.domain": "Bereich",
-    "titleblock.domainVal": "Full-Stack · KI/ML",
+    "titleblock.domainVal": "Full-Stack · LLMs · RAG",
     "titleblock.based": "Standort",
     "titleblock.basedVal": "Dornbirn, Österreich",
     "titleblock.exp": "Erfahrung",
@@ -177,9 +177,9 @@ const translations = {
 
     "about.eyebrow": "01 — Profil",
     "about.title": "Über mich",
-    "about.p1": "Ich bin Senior Softwareentwickler mit über 25 Jahren praktischer Erfahrung — von Java/JavaEE-Backend-Systemen bis zu modernen Full-Stack-Webanwendungen mit React, Angular und Node.js. In den letzten Jahren habe ich fundierte Kenntnisse in KI und Daten aufgebaut: Large Language Models (LLMs), RAG-Architekturen, Multi-Agenten-Systeme mit LangChain/LangGraph, Machine Learning mit Python/PyTorch sowie Datenpipelines.",
-    "about.p2": "Mein Hintergrund umfasst großangelegte operative Systeme — unter anderem das Bahnbetriebsmanagement für die tunesische Eisenbahngesellschaft und die Entwicklung von Enterprise-ERP-Systemen — sowie technische Schulung und Mentoring junger Entwickler. Seit 2019 arbeite ich als selbstständiger Berater und habe KI-gestützte Plattformen für Kunden wie Talan und Capgemini betreut und mitentwickelt.",
-    "about.p3": "Aktuell wohnhaft in Dornbirn, Vorarlberg, und offen für Freelance-/Beratungsprojekte sowie eine Festanstellung im gesamten Bodenseeraum (Vorarlberg, Bodensee, St. Gallen).",
+    "about.p1": "Produktorientierter Full-Stack-Ingenieur mit über 25 Jahren Erfahrung in der End-to-End-Entwicklung realer Systeme — Frontend, Backend, APIs und Datenbanken. Ich mache aus unklaren Anforderungen funktionierende Produkte mit klarer UX und zuverlässiger Backend-Logik und übernehme auch nach dem Release Verantwortung durch Monitoring, Debugging und Verbesserungen im Betrieb.",
+    "about.p2": "Mein aktueller Schwerpunkt ist angewandte KI: LLMs, RAG-Systeme, MCP und agentische Workflows in realen Anwendungen. Ich bewege mich sicher über den gesamten Stack, arbeite gut mit Unklarheit und übernehme Verantwortung für Ergebnisse. Mein Hintergrund umfasst außerdem großangelegte Bahnbetriebssysteme, Enterprise-ERP-Entwicklung, technisches Mentoring und Beratungsprojekte für Kunden wie Talan und Capgemini.",
+    "about.p3": "Wohnhaft in Dornbirn, Vorarlberg, Österreich, mit uneingeschränktem Arbeitsmarktzugang (Rot-Weiß-Rot-Karte plus). Englisch ist meine primäre Arbeitssprache; für die lokale Integration lerne ich aktiv Deutsch.",
 
     "skills.langFrameworks": "Sprachen & Frameworks",
     "skills.fullstack": "Full-Stack",
@@ -201,7 +201,7 @@ const translations = {
     "exp.s1.b3": "Vertiefung praktischer Kenntnisse in Python, KI/ML (LLMs, RAG, PyTorch) und Datenpipelines.",
     "exp.s1.b4": "Einsatz von Jira für Sprint- und Aufgabenverwaltung sowie GitLab für Versionskontrolle und CI/CD in Beratungsprojekten; gelegentlich .NET-basierte Komponenten in ausgewählten Kundenprojekten.",
     "exp.s1.b5": "Umzug nach Dornbirn, Vorarlberg, im Juli 2026; aktives Deutschlernen zur lokalen Integration. Uneingeschränkter Arbeitsmarktzugang (Rot-Weiß-Rot-Karte plus).",
-    "exp.s2.title": "Software-Trainer & technischer Mentor",
+    "exp.s2.title": "Software-Engineering-Berater & technischer Mentor",
     "exp.s2.org": "TVTC (Technical and Vocational Corporation), Saudi-Arabien",
     "exp.s2.b1": "Technische Beratung und Anwendungsentwicklung innerhalb der nationalen Berufsbildungsbehörde Saudi-Arabiens.",
     "exp.s2.b2": "Mentoring junger Entwickler in der Softwareentwicklungspraxis.",
@@ -228,24 +228,24 @@ const translations = {
     "links.demo": "Live-Demo",
 
     "proj.fabriq.role": "Natural-Language-to-SQL-Agent für Industrieanalytik",
-    "proj.fabriq.desc": "Ein agentenbasiertes Analysetool, mit dem Industrieteams Produktionsdaten in natürlicher Sprache abfragen können. Kombiniert eine typisierte Full-Stack-Anwendung mit einer LangGraph-orchestrierten Reasoning-Schicht, die Fragen in sichere, validierte SQL-Abfragen umwandelt.",
+    "proj.fabriq.desc": "Ein agentischer Assistent für Industrieanalytik, der natürlichsprachliche Fragen in SQL übersetzt — mit abgesicherten Read-only-Abfragen, ausführungsbasierter Evaluation, Observability und CI für Sicherheit und Korrektheit.",
 
     "proj.fabricore.role": "Portfolio-ERP-System",
-    "proj.fabricore.desc": "Ein modulares ERP-System für Lager, Vertrieb, Beschaffung, Produktion, Finanzen und Logistik — aufgebaut auf einem modernen Enterprise-Java-Stack, mit KI-unterstützter Entwicklung, die Commit für Commit überprüft wird.",
+    "proj.fabricore.desc": "Ein transaktionaler Operations-Kern für ein Industrie-KMU mit prüfbarem Lager, Produktion, Beschaffung, Versand, Finanzen, kontrolliertem Mehrwährungsreporting und sicherer ERP-Integration.",
 
     "proj.werkpilot.role": "Industrielle Entscheidungsunterstützungsplattform",
-    "proj.werkpilot.desc": "Ein webbasiertes Betriebs-Dashboard für produzierende KMU in Vorarlberg. Bündelt Maschinen-, Produktions-, Energie-, Ausschuss-, Stillstands- und Wartungsdaten zu festen KPIs, Anomalie-Warnungen, Wartungsempfehlungen und Management-Berichten.",
+    "proj.werkpilot.desc": "Eine Entscheidungs- und Operationsplattform für Industrie-KMU mit nachvollziehbaren CSV-Importen, backend-berechneten KPIs, erklärbarer Anomalieerkennung, Wartungsworkflows und RBAC-Audit-Trails.",
     "proj.werkpilot.tag1": "Full-Stack",
     "proj.werkpilot.tag2": "Dashboards",
     "proj.werkpilot.tag3": "Fertigungsdaten",
 
-    "proj.pharmalink.role": "Digitale Plattform für Patienten und Apotheken",
-    "proj.pharmalink.desc": "Verbindet Patienten und Apotheken in Echtzeit: Medikamentensuche, Suche nach nahegelegenen Apotheken, Reservierung von Behandlungen und Rezept-Upload mit automatischer OCR-Erkennung. Für Apotheken: Bestandsverwaltung, Reservierungsabwicklung und Benachrichtigungen.",
+    "proj.pharmalink.role": "Mehrsprachige Patienten-Apotheken-Plattform",
+    "proj.pharmalink.desc": "Eine auf Datenschutz und Verfügbarkeit ausgerichtete Plattform für Medikamentenverfügbarkeit und Reservierungen: PostGIS-Bestandssuche, End-to-End-Reservierungen, asynchrone Rezept-OCR mit menschlicher Validierung, granulare Berechtigungen, Audit-Logging und Echtzeitbenachrichtigungen.",
     "proj.pharmalink.tag2": "Full-Stack",
     "proj.pharmalink.tag3": "Echtzeit",
 
-    "proj.triagedesk.role": "Projekt zur Verwaltung von Triage-Abläufen",
-    "proj.triagedesk.desc": "Ein Projekt zur Organisation von Triage-Abläufen. Details zur Umsetzung sind im Repository verfügbar.",
+    "proj.triagedesk.role": "KI-gestützter Customer-Support-Helpdesk",
+    "proj.triagedesk.desc": "Ein Human-in-the-loop- und kostenbewusster Helpdesk: Ein LLM klassifiziert, priorisiert und entwirft Antworten; Mitarbeitende genehmigen jede ausgehende Antwort. RAG sowie Kosten-, Token- und Latenz-Audits je Aufruf machen den KI-Nutzen messbar.",
 
     "proj.wicmic.role": "Intelligente IoT-Plattform zur Wasserzählerüberwachung",
     "proj.wicmic.desc": "Eine On-Premise-IoT-Plattform, die mechanische Wasserzähler mit ESP32-CAM-Bilderfassung, Computer Vision/OCR, prädiktiver Überwachung und einem lokalen LLM-Agenten für Anomaliewarnungen und französische Berichte nachrüstet.",
@@ -274,12 +274,12 @@ const translations = {
 
     "lang.fr": "Französisch", "lang.fluent": "Fließend",
     "lang.ar": "Arabisch", "lang.native": "Muttersprache",
-    "lang.en": "Englisch", "lang.strong": "Gute Kenntnisse",
+    "lang.en": "Englisch", "lang.strong": "Professionelle Arbeitssprache",
     "lang.de": "Deutsch", "lang.beginner": "Anfänger — aktives Lernen",
 
     "contact.eyebrow": "05 — Kontakt aufnehmen",
     "contact.title": "Lass uns etwas aufbauen.",
-    "contact.desc": "Offen für Freelance-/Beratungsprojekte und Festanstellungen im gesamten Bodenseeraum.",
+    "contact.desc": "Offen für Vollzeitstellen in der Softwareentwicklung — hybrid oder remote.",
     "contact.btnCV": "Lebenslauf herunterladen",
     "contact.location": "Dornbirn, Vorarlberg, Österreich",
 
