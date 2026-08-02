@@ -9,6 +9,7 @@ const translations = {
     "nav.projects": "Projects",
     "nav.credentials": "Credentials",
     "nav.resume": "Résumé ↓",
+    "cv.href": "assets/CV_Mohamed_Lassoued_EN.pdf",
 
     "hero.kicker": "Open to full-time software engineering roles — hybrid or remote",
     "hero.role1": "Senior Software & AI Engineer",
@@ -151,6 +152,7 @@ const translations = {
     "nav.projects": "Projekte",
     "nav.credentials": "Qualifikationen",
     "nav.resume": "Lebenslauf ↓",
+    "cv.href": "assets/CV_Mohamed_Lassoued_DE.pdf",
 
     "hero.kicker": "Offen für eine Vollzeitstelle als Softwareentwickler — hybrid oder remote",
     "hero.role1": "Senior Software- & KI-Ingenieur",
@@ -303,6 +305,10 @@ function applyLanguage(lang) {
     if (dict[key] !== undefined) {
       el.setAttribute('alt', dict[key]);
     }
+  });
+
+  document.querySelectorAll('[data-cv-link]').forEach((el) => {
+    if (dict['cv.href']) el.setAttribute('href', dict['cv.href']);
   });
 
   document.documentElement.setAttribute('lang', lang);
